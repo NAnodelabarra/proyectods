@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="./assets/css/libs.bundle.css" />     
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./assets/css/theme.bundle.css" />   
+
+</head><body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!-- Main Content -->
+<main>
+  <div class="container">
+
+    <!-- Swiper -->
+    <div class="swiper" data-swiper='{
+      "navigation": {
+        "nextEl": ".swiper-button-next",
+        "prevEl": ".swiper-button-prev"
+      }
+    }'>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide">Slide 5</div>
+        <div class="swiper-slide">Slide 6</div>
+        <div class="swiper-slide">Slide 7</div>
+        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide">Slide 9</div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- Swiper -->
+    <div class="swiper my-10 py-10 position-relative" data-swiper='{
+      "slidesPerView": 3,
+      "spaceBetween": 30,
+      "pagination": {
+        "el": ".swiper-pagination",
+        "clickable": true
+      }
+    }'>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide">Slide 5</div>
+        <div class="swiper-slide">Slide 6</div>
+        <div class="swiper-slide">Slide 7</div>
+        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide">Slide 9</div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>    
+
+
+  </div>
+</main>
+<!-- /Main Content -->
+
+<!-- Footer -->
+<footer class="py-3 my-3" data-aos="fade-up">
+    <ul class="list-unstyled d-flex justify-content-center border-bottom pb-3 mb-4">
+        <li class="mx-4"><a href="" class="small text-muted text-decoration-none">Link Text</a></li>
+        <li class="mx-4"><a href="" class="small text-muted text-decoration-none">Link Text</a></li>
+        <li class="mx-4"><a href="" class="small text-muted text-decoration-none">Link Text</a></li>
+        <li class="mx-4"><a href="" class="small text-muted text-decoration-none">Link Text</a></li>
+        <li class="mx-4"><a href="" class="small text-muted text-decoration-none">Link Text</a></li>
+    </ul>
+    <p class="text-muted small text-center">All rights reserved</p>
+</footer>
+
+    <!-- Vendor JS -->
+    <script src="./assets/js/vendor.bundle.js"></script>
+
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.bundle.js"></script></body>
+</html>
